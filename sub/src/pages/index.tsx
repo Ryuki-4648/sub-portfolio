@@ -1,51 +1,29 @@
-import { Inter } from 'next/font/google'
+import Bottom from '@/components/bottom'
+import Header from '@/components/header'
 import Head from 'next/head'
 import Image from 'next/image'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>ゆきのせかい</title>
-        <meta name="description" content="ゆきのせかい。 | 作品のひろば | デザイン・コーディング・Webアプリ" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ゆきのせかい。</title>
       </Head>
+
+      <div className="hidden sm:block snow-common snow01 text-white fixed -top-3 text-sm">●</div>
+      <div className="snow-common snow02 text-white fixed -top-2 text-xs">●</div>
       
       <main className="h-screen overflow-hidden relative">
-        <header className="flex justify-between px-5 pt-10">
-          <a href="/">
-            <Image
-              alt="ゆきのせかい。"
-              className=""
-              height={50}
-              priority
-              src="/logo02.png"
-              width={165}
-            />
-          </a>
-          <ul className="flex flex-wrap">
-            <li className="mr-8">
-              <a href="" className="text-type01 text-lg text-white tracking-wider">ようこそ</a>
-            </li>
-            <li className="mr-8">
-              <a href="/works/" className="text-type01 text-lg text-white tracking-wider">ひろば</a>
-            </li>
-            <li className="mr-8">
-              <a href="/guide/" className="text-type01 text-lg text-white tracking-wider">あんない</a>
-            </li>
-          </ul>
-        </header>
+        <Header />
 
-        <div className="absolute text-type01 mx-auto my-0 left-2/4 top-2/4 -translate-x-1/2 -translate-y-1/2">
-          <h1 className="p-top__intro-title font-normal text-2xl ml-12 text-color02">ゆきのせかい</h1>
-          <div className="p-top__intro-text text-lg tracking-widest text-white">
+        <div className="flex md:block flex-wrap md:flex-nowrap absolute text-type01 px-4 md:px-0 mx-auto my-0 left-2/4 top-2/4 -translate-x-1/2 -translate-y-1/2">
+          <h1 className="p-top__intro-title font-normal text-xl md:text-2xl mb-8 md:mb-0 md:ml-12 text-color02">ゆきのせかい</h1>
+          <div className="p-top__intro-text text-xs sm:text-sm md:text-lg tracking-widest text-white">
             <p>だれも　しらない</p>
             <p>ちいさな　ひろばで</p>
             <p>ゆきが　ふっている</p>
             <p>しんしんと　おとも　なく</p>
-            <br /><br />
+            <br className="hidden sm:block" /><br />
             <p>おや</p>
             <p>だれか　やってくる</p>
             <br />
@@ -58,9 +36,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-white h-24 w-full absolute bottom-0">
-          <div className="c-bottom__snow-wave"></div>
-        </div>
+        <Bottom />
       </main>
     </>
   )
