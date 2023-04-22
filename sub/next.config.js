@@ -12,7 +12,7 @@ module.exports = {
     ],
     // srcディレクトリから読み込むファイルを指定する
     files: [
-      'src/pages/**/*.{js,ts,jsx,tsx}',
+      '/src/pages/**/*.{js,ts,jsx,tsx}',
     ],
   },
 }
