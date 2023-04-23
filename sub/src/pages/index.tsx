@@ -1,7 +1,6 @@
 import Bottom from '@/components/bottom'
 import Header from '@/components/header'
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -17,7 +16,7 @@ export default function Home() {
         <Header />
 
         <div className="flex md:block flex-wrap md:flex-nowrap absolute text-type01 px-4 md:px-0 mx-auto my-0 left-2/4 top-2/4 -translate-x-1/2 -translate-y-1/2">
-          <h1 className="p-top__intro-title font-normal text-xl md:text-2xl mb-8 md:mb-0 md:ml-12 text-color02">ゆきのせかい</h1>
+          <h1 className="p-top__intro-title font-normal text-xl md:text-2xl mb-8 md:mb-0 md:ml-6 lg:ml-12 text-color02">ゆきのせかい</h1>
           <div className="p-top__intro-text text-xs sm:text-sm md:text-lg tracking-widest text-white">
             <p>だれも　しらない</p>
             <p>ちいさな　ひろばで</p>
