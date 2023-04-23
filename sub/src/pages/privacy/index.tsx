@@ -11,7 +11,7 @@ export default function Privacy() {
       <Header />
 
       <h1 className="text-color02 text-type01 text-xl md:text-2xl mx-auto tracking-widest pt-32 md:pt-24 mb-12 md:mb-16">さいとのてびき</h1>
-      <div className="w-11/12 sm:w-4/5 lg:w-7/12 mx-auto text-center px-4 pb-12 tracking-widest">
+      <div className="w-11/12 sm:w-4/5 lg:w-7/12 mx-auto text-center px-4 pb-12 tracking-widest text-gray-900">
         <h2 className="text-type02 w-full text-lg md:text-lg mb-8">プライバシーポリシー</h2>
         
         <h3 className="text-type02 w-full text-md md:text-md mb-2">個人情報の管理方法</h3>
