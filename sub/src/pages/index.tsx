@@ -9,8 +9,8 @@ export default function Home() {
         <title>ゆきのせかい。</title>
       </Head>
 
-      <div className="hidden sm:block snow-common snow01 text-white fixed -top-3 text-sm">●</div>
-      <div className="snow-common snow02 text-white fixed -top-2 text-xs">●</div>
+      <div className="hidden sm:block snow-common snow01 text-white fixed -top-12 left-24 text-sm">●</div>
+      <div className="snow-common snow02 text-white fixed -top-2 left-0 text-xs">●</div>
       
       <main className="h-screen overflow-hidden relative">
         <Header />
