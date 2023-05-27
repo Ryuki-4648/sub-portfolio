@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex flex-wrap fixed justify-between px-2 md:px-12 pt-6 w-full">
+    <header className="flex flex-wrap fixed justify-between px-2 pt-4 md:px-12 md:pt-10 w-full">
       <a href="/" className="duration-500 mb-4 md:mb-0 hover:opacity-70">
         <img src="/logo02.png" alt="ゆきのせかい。" className="w-40 md:w-52" />
       </a>
