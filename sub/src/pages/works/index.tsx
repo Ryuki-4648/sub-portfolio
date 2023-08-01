@@ -26,7 +26,7 @@ export default function Work() {
           <ul className="text-color02 text-lg text-type02">
             {worksListData.map((worksList: WorksList) => (
             <li key={worksList.url} className="mb-4">
-              <a href={worksList.url} target="_blank" className="duration-500 hover:text-color03">{worksList.title}</a>
+              <a href={worksList.url} target="_blank" className="duration-500 tracking-wide hover:text-color03">{worksList.title}</a>
             </li>
             ))}
           </ul>
